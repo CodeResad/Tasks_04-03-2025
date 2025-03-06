@@ -60,7 +60,15 @@
 // Task 4:
 // int num = Convert.ToInt32(Console.ReadLine());
 //
-// if (num / 100 == 0)
+// int count = 0;
+// int temp = num;
+//
+// while(temp != 0){
+//     temp /= 10;
+//     count++;
+// }
+//
+// if (count == 2)
 // {
 //     if (num / 10 > num % 10) {
 //         Console.WriteLine("Onluq boyukdur.");
